@@ -1,1 +1,7 @@
-{{outlet}}
+<form>
+  <div class=" class="form-group well"">
+    <label for="name">Enter a Name:</label>
+    {{input value=name id="name"}}
+  </div>
+  <button type="btn btn-default" {{action 'beerLookup'}}>Submit</button>
+</form>
