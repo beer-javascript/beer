@@ -16,6 +16,13 @@ module.exports = function(environment) {
         Date: false
       }
     },
+    firebase: {
+      apiKey: "AIzaSyD8YNRQK7-8ysj43gWMKaH9R1EhLV4vSBk",
+      authDomain: "beer-c955e.firebaseapp.com",
+      databaseURL: "https://beer-c955e.firebaseio.com",
+      storageBucket: "beer-c955e.appspot.com",
+      messagingSenderId: "174151819785"
+    },
 
     APP: {
       // Here you can pass flags/options to your application instance
@@ -24,6 +31,7 @@ module.exports = function(environment) {
   };
 
   if (environment === 'development') {
+    ENV.myApiKey = process.env.apiKey;
     // ENV.APP.LOG_RESOLVER = true;
     // ENV.APP.LOG_ACTIVE_GENERATION = true;
     // ENV.APP.LOG_TRANSITIONS = true;
