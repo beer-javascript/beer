@@ -20,8 +20,8 @@ module.exports = function(environment) {
       apiKey: "AIzaSyD8YNRQK7-8ysj43gWMKaH9R1EhLV4vSBk",
       authDomain: "beer-c955e.firebaseapp.com",
       databaseURL: "https://beer-c955e.firebaseio.com",
-      storageBucket: "beer-c955e.appspot.com",
-      messagingSenderId: "174151819785"
+      storageBucket: "beer-c955e.appspot.com"
+      // messagingSenderId: "174151819785"
     },
 
     APP: {
